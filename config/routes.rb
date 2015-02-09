@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   patch 'users/:id' => 'users#update'
 
-  get 'users/:id' => 'users#show', as: :user
+  get 'users/:id' => 'users#show'
 
   delete 'users/:id' => 'users#destroy'
 
